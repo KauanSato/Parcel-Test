@@ -1,0 +1,22 @@
+{
+  "name": "projeto-17",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "targets": {
+    "main": false
+  },
+  "scripts": {
+    "dev": "parcel src/index.html src/scripts/main.js src/styles/main.scss",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.16.3",
+    "parcel": "^2.16.3",
+    "sharp": "^0.33.5"
+  }
+}
